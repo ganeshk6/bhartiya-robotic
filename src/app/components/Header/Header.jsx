@@ -27,7 +27,7 @@ const Header = () => {
      <div className={fix ? styles.fixedNavbar : styles.Header}>
         <div className={styles.Logo}>
           <Link to='./'>
-            <Image className={styles.logoImage} src={logo}/>
+            <Image className={styles.logoImage} alt='g' src={logo}/>
           </Link>
         </div>
       <div className={styles.HeaderLink}>
@@ -64,7 +64,7 @@ const Header = () => {
             <div className={styles.mobileLogo}>
                 <div>
                   <Link to='./'>
-                    <Image src={logo} height={100} width={150} />
+                    <Image src={logo} alt='df' height={100} width={150} />
                   </Link>
                   <div className={styles.mobileContent}>
                     <p>BHARATIYA ROBOTICS</p>

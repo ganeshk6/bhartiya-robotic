@@ -9,8 +9,8 @@ const Banner = () => {
   return (
     <>
       <div className={Style.bannerMain}>
-        <Image className={Style.bannerImage1} src={bannerImage1} />
-        <Image className={Style.bannerImage2} src={bannerImage2} />
+        <Image className={Style.bannerImage1} alt="g" src={bannerImage1} />
+        <Image className={Style.bannerImage2} alt="g" src={bannerImage2} />
         <div className={Style.bannerHeader}>
           <div className={Style.bannerFirstHeader}>
             <h1>“Let’s Fertilize the seeds of Bots”</h1>
@@ -25,8 +25,8 @@ const Banner = () => {
             Unleash your creativity with our cutting-edge IoT DIY kits designed
             to inspire and educate. At Bhartiya Robotics, we believe in
             empowering individuals to harness the power of technology and
-            cultivate a passion for robotics. "Let's fertilize the seeds of
-            bots" is not just a tagline; it's a philosophy that drives us to
+            cultivate a passion for robotics. &quot;Let&apos;;s fertilize the seeds of
+            bots&quot; is not just a tagline; it&apos;s a philosophy that drives us to
             provide hands-on learning experiences that are both engaging and
             transformative.
           </p>

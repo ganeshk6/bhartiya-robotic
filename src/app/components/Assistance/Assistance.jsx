@@ -13,8 +13,8 @@ const Assistance = () => {
         <h1>Free Assistance ?</h1>
         <div className={Style.assistanceContentStart}>
           <div className={Style.assistanceImage}>
-            <Image src={assistance2} height={400} width={500} className={Style.assistanceImage1} />
-            <Image src={assistance1} height={300}/>
+            <Image src={assistance2} alt="g" height={400} width={500} className={Style.assistanceImage1} />
+            <Image src={assistance1} alt="g" height={300}/>
           </div>
           <div className={Style.assistanceMainContent}>
             <h1>We are always there for you !</h1>

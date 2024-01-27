@@ -12,7 +12,7 @@ const Impact = () => {
     <>
       <div className={Style.impactMain}>
         <div>
-          <Image src={India} width={700} />
+          <Image src={India} alt="sd" width={700} />
         </div>
         <div className={Style.impactContent}>
           <div className={Style.impactHeader}>
@@ -26,15 +26,15 @@ const Impact = () => {
           </div>
           <div className={Style.impactContent2}>
             <div className={Style.impactContentImage}>
-              <Image src={Sold} className={Style.impactImage} />
+              <Image src={Sold} alt="g" className={Style.impactImage} />
               <p>500+ KIDS REACHED</p>
             </div>
             <div className={Style.impactContentImage}>
-              <Image src={Growth} className={Style.impactImage} />
+              <Image src={Growth} alt="g" className={Style.impactImage} />
               <p>Available in 16000+ Cities</p>
             </div>
             <div className={Style.impactContentImage}>
-              <Image src={Institute} className={Style.impactImage} />
+              <Image src={Institute} alt="f" className={Style.impactImage} />
               <p>Top Institute Instructors</p>
             </div>
           </div>

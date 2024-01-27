@@ -15,7 +15,7 @@ const Footer = () => {
         <div className={Style.footerDetails}>
           <div className={Style.footerLogoIcons}>
             <div>
-              <Image src={footerLogo} height={50} width={100} />
+              <Image src={footerLogo} alt="g" height={50} width={100} />
             </div>
             <div className={Style.footerNameIcons}>
               <h2>Bhartiya Robotics</h2>

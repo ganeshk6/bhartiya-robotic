@@ -14,10 +14,10 @@ const Kitknowledge = () => {
           Ignite the Future <br />
           The journey of profound knowledge
         </h1>
-        <Image src={kitknowledgeBgImage} className={Style.bgImage} />
+        <Image src={kitknowledgeBgImage} alt="d" className={Style.bgImage} />
         <div className={Style.kitKnowledge}>
           <div className={Style.kit1}>
-            <Image src={knowledge1} className={Style.kitImage1} height={150} />
+            <Image src={knowledge1} alt="df" className={Style.kitImage1} height={150} />
             <div className={Style.kitDetails1}>
               <h3>Ignition Kit</h3>
               {/* <div> */}
@@ -35,7 +35,7 @@ const Kitknowledge = () => {
             </div>
           </div>
           <div className={Style.kit2}>
-            <Image src={knowledge2} className={Style.kitImage2} height={150} />
+            <Image src={knowledge2} alt="f" className={Style.kitImage2} height={150} />
             <div className={Style.kitDetails1}>
               <h3>Explorer Kit</h3>
               <ul>
@@ -47,7 +47,7 @@ const Kitknowledge = () => {
             </div>
           </div>
           <div className={Style.kit3}>
-            <Image src={knowledge3} height={250} />
+            <Image src={knowledge3} alt="s" height={250} />
             <div className={Style.kitDetails1}>
               <h3>Innovator Kit</h3>
               <div>
