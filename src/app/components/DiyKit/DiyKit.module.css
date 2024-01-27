@@ -1,0 +1,69 @@
+.Kits{
+    /* background: linear-gradient(253deg, rgba(178, 0, 0, 0.43) 25.06%, rgba(64, 69, 198, 0.35) 66.25%, rgba(30, 138, 216, 0.00) 98.54%), #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    padding: 3rem 4rem;
+}
+.Kits h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    color: #2F8F9D;
+    text-shadow: 2px 0px #00676C, 2px 0px #00676C, 0px 2px #00676C, 0px 2px #00676C,
+    2px 2px #00676C, 2px 2px #00676C, 2px 2px #00676C, 2px 2px #00676C;
+    padding: 2rem 0rem;
+}
+.KitsCard{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 2rem;
+}
+.kitsImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.sensorName{
+    font-size: 15px;
+}
+.image{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+@media screen and (max-width:1100px) {
+    .Kits{
+        padding: 2rem;
+    }
+    .image{
+        height: 250px;
+        width: 400px;
+    }
+    .KitsCard{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:850px) {
+    .Kits{
+        padding: 4rem 1rem;
+    }
+    .image{
+        height: 250px;
+        width: 100%;
+        border-radius: 70px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .KitsCard{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Kits{
+        padding: 4rem 1rem;
+    }
+}
