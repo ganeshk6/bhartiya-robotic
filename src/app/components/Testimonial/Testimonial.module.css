@@ -1,0 +1,78 @@
+.testimonialMain{
+    background-color: #95DFFF;
+    padding: 4rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.testimonial{
+    background-color: #fff;
+    padding: 0rem 2rem 2rem 5rem;
+    color: #808080;
+}
+.testimonialCard{
+    margin-top: -2rem;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px 1px #413b3b;
+}
+.testimonialCard2{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px 1px #413b3b;
+    margin-left: 100px;
+}
+.testimonialCard3{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px 1px #413b3b;
+    margin-left: 50px;
+}
+.circleImage{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -100px;
+}
+.cardImage{
+    z-index: 1;
+    border: 5px solid #2F8F9D;
+    border-radius: 50%;
+}
+.cardFirstPart{
+    height: 50%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #E4E4D0;
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.cardSecondPart{
+    padding: 2rem 0rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.clientName{
+    font-weight: bold;
+}
+.clientMessage{
+    font-style: italic;
+    font-size: 16px;
+}
+.buttons{
+    color: #808080;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 50px;
+}

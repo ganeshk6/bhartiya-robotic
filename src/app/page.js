@@ -1,5 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Banner from "./components/Banner/Banner";
@@ -8,6 +6,8 @@ import DiyKit from "./components/DiyKit/DiyKit";
 import Blank from "./components/Blank/Blank";
 import Impact from "./components/Impact/Impact";
 import Assistance from "./components/Assistance/Assistance";
+import Testimonial from "./components/Testimonial/Testimonial";
+import Review from "./components/Review/Review";
 
 export default function Home() {
   return (
@@ -19,8 +19,10 @@ export default function Home() {
     <Blank />
     <Impact />
     <Blank />
+    <Testimonial />
     <Assistance />
     <Blank />
+    <Review />
     <Footer />
     </>
   );

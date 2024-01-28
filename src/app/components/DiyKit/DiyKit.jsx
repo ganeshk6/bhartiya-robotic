@@ -1,14 +1,14 @@
 import React from 'react'
 import Style from './DiyKit.module.css'
 import DiyKitCard from './DiyKitCard'
-import dk1 from '../assets/images/dk1.jpeg'
-import dk2 from '../assets/images/dk2.jpeg'
-import dk3 from '../assets/images/dk3.jpeg'
-import dk4 from '../assets/images/dk4.jpeg'
-import dk5 from '../assets/images/dk5.jpeg'
-import dk6 from '../assets/images/dk6.jpeg'
-import dk7 from '../assets/images/dk7.jpeg'
-import dk8 from '../assets/images/dk8.jpeg'
+import dk1 from '../assets/images/f1-1@2x.png'
+import dk2 from '../assets/images/f2-1@2x.png'
+import dk3 from '../assets/images/f3-1@2x.png'
+import dk4 from '../assets/images/f4-1@2x.png'
+import dk5 from '../assets/images/f5-1@2x.png'
+import dk6 from '../assets/images/f6-1@2x.png'
+import dk7 from '../assets/images/f7-1@2x.png'
+import dk8 from '../assets/images/f8-1@2x.png'
 
 const DiyKit = () => {
   return (

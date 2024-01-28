@@ -1,10 +1,19 @@
 .assistanceStart{
     display: flex;
     flex-direction: column;
-    padding: 4rem 3rem;
+    padding: 4rem 5rem 4rem 4rem;
     align-items: center;
+    position: relative;
+}
+.assistanceLine{
+    position: absolute;
+    top: 38%;
+    height: 10px;
+    background-color: #808080;
+    width: 100vw;
 }
 .assistanceStart h1{
+    font-size: 50px;
     color: #2F8F9D;
 }
 .assistanceContentStart{
@@ -18,7 +27,7 @@
     flex-direction: column;
 }
 .assistanceImage1{
-    margin-bottom: -200px;
+    margin-bottom: -220px;
     z-index: 1;
 }
 .assistanceMainContent{
@@ -28,17 +37,39 @@
     gap: 2rem;
 }
 .assistanceMainContent h1{
+    font-size: 37px;
     color: #808080;
 }
-.assistanceMainContent p {
-    font-size: 10px;
-    padding: 0 22rem 0 0;
-    line-height: 15px;
+.assistanceText{
+    font-size:20px;
+    padding: 0 6rem 0 0;
+    line-height:22px;
 }
 .assistanceButton{
     display: flex;
-    gap: 5rem;
+    justify-content: space-between;
 }
 .buttons{
+    color: #fff;
     display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #2F8F9D;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.messageIcon{
+    font-size: 30px;
+}
+.calIcon{
+    font-size: 30px;
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }

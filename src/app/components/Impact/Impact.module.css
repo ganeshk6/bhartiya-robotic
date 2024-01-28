@@ -1,25 +1,32 @@
 .impactMain {
     display: flex;
+    justify-content: space-between;
     padding: 3rem 0rem 3rem 1rem;
     color: #2F8F9D;
 }
-
 .impactHeader {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    
+}
+.impactHeader h1{
+    font-size: 50px;
+    margin-left: -150px;
+    margin-right: 50px;
 }
 
 .impactHeader small {
     text-align: end;
     font-size: 10px;
+    margin-right: 50px;
 }
 
 .impactContent {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
-    margin-top: 100px;
+    gap: 15rem;
+    margin-top: 50px;
 }
 
 .lines {
@@ -27,39 +34,46 @@
     justify-content: space-between;
     align-items: center;
     margin-top: -30px;
+    margin-left: -200px;
 }
 
 .lineBetween {
-    height: 5px;
+    height: 10px;
     background-color: #2F8F9D;
     width: 100%;
+    margin-left: -2px;
     /* width: 40vw; */
     /* margin-left: 100px; */
     /* margin-right: 100px; */
 }
 
 .leftCircle {
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: #2F8F9D;
     border-radius: 50%;
     /* margin-left: -100px; */
 }
 
 .rightCircle {
-    width: 2rem;
-    height: 4rem;
+    width: 3rem;
+    height: 6rem;
     background-color: #2F8F9D;
-    border-radius: 2rem 0 0rem 2rem;
+    border-radius: 3rem 0 0rem 3rem;
     border-bottom: transparent;
-    margin-right: -50px;
+    text-align: end;
+    /* margin-right: -100px; */
 }
 
 .impactContent2 {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin-left: -100px;
 }
-
+.impactContent2 p{
+    font-size: 25px;
+    color: #808080;
+}
 .impactContentImage {
     display: flex;
     gap: 2rem;
@@ -68,6 +82,6 @@
 }
 
 .impactImage {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }

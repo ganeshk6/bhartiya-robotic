@@ -24,11 +24,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     cursor: pointer;
 }
 .sensorName{
-    font-size: 15px;
+    font-size: 20px;
+    color: #104D0E;
 }
 .image{
     display: flex;

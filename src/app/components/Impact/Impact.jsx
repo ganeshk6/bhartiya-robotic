@@ -12,7 +12,7 @@ const Impact = () => {
     <>
       <div className={Style.impactMain}>
         <div>
-          <Image src={India} alt="sd" width={700} />
+          <Image className={Style.indiaImage} src={India} alt="sd" width={750} />
         </div>
         <div className={Style.impactContent}>
           <div className={Style.impactHeader}>
