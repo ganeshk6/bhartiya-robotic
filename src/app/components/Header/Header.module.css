@@ -147,6 +147,9 @@
     .Header{
         padding: 1rem 1rem;
     }
+    .fixedNavbar{
+        padding: 1rem 1rem;
+    }
 }
 @media screen and (max-width: 650px) {
     .btn{
