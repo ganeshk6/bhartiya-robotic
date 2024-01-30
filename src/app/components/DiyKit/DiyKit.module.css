@@ -41,12 +41,12 @@
         padding: 2rem;
     }
     .image{
-        height: 250px;
-        width: 400px;
+        width: 100px;
+        height: 100px;
     }
     .KitsCard{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 @media screen and (max-width:850px) {
@@ -54,15 +54,14 @@
         padding: 4rem 1rem;
     }
     .image{
-        height: 250px;
-        width: 100%;
-        border-radius: 70px;
+        width: 100px;
+        height: 100px;
     }
 }
 @media screen and (max-width: 650px) {
     .KitsCard{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .Kits{
         padding: 4rem 1rem;

@@ -8,6 +8,9 @@ import Impact from "./components/Impact/Impact";
 import Assistance from "./components/Assistance/Assistance";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Review from "./components/Review/Review";
+import CopyRight from "./components/CopyRight/CopyRight";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Home() {
   return (
@@ -24,6 +27,7 @@ export default function Home() {
     <Blank />
     <Review />
     <Footer />
+    <CopyRight/>
     </>
   );
 }

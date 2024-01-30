@@ -1,4 +1,4 @@
-.kitKnowledgeMain{
+.kitKnowledgeMain {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -8,45 +8,79 @@
     background-repeat: no-repeat;
     width: 100%;
 }
-.kitKnowledgeMain h1{
+
+.kitKnowledgeMain h1 {
     /* font-family: Arimo; */
     text-align: center;
     font-weight: 700;
     font-size: 64px;
     color: #2F8F9D;
     text-shadow: 2px 0px #00676C, 2px 0px #00676C, 0px 2px #00676C, 0px 2px #00676C,
-    2px 2px #00676C, 2px 2px #00676C, 2px 2px #00676C, 2px 2px #00676C;
+        2px 2px #00676C, 2px 2px #00676C, 2px 2px #00676C, 2px 2px #00676C;
     /* text-shadow: 2px 0 #00676C, 2px 0 #00676C, 0 2px #fff, 0 2px #00676C,
              1px 1px #00676C, 1px 1px #00676C, 1px 1px #00676C, 1px 1px #00676C; */
 }
-.bgImage{
+
+.bgImage {
     width: 100%;
-    position: relative;
-    height: 200vh;
+    /* position: relative; */
+    /* height: 200vh; */
     /* margin-bottom: 100px; */
 }
-.kitKnowledge{
-    position: absolute;
+
+.bgImageKnowledge {
+    background-image: url('../assets/images/kirKnowledgebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:center; */
+}
+
+.kitKnowledge {
+    /* position: absolute; */
+    position: relative;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
-.kit1{
+
+.clickPath1 {
+    position: absolute;
+    margin-top: 50px;
+    height: 300px;
+    width: 520px;
+    /* top: 10%; */
+    left: 20%;
+}
+
+.clickPath2 {
+    position: absolute;
+    margin-top: 100px;
+    height: 97rem;
+    width: 800px;
+    left: 26%;
+}
+
+.kit1 {
     display: flex;
     align-items: self-end;
-    margin-top: 250px;
+    /* margin-top: 250px; */
     margin-left: 45vw;
 }
-.kit2{
+
+.kit2 {
     display: flex;
     align-items: self-end;
     margin-top: -50px;
 }
-.kit3{
+
+.kit3 {
     display: flex;
     margin-left: 40vw;
+    margin-top: 150px;
     align-items: self-end;
 }
-.kitDetails1{
+
+.kitDetails1 {
     background-color: #fff;
     box-shadow: 0px 1px 1px 1px #b08d8d;
     padding: 0.5rem;
@@ -58,16 +92,111 @@
     align-items: center;
     border-radius: 5px;
 }
-.kitImage1{
+
+.kitImage1 {
     margin-right: -100px;
     margin-bottom: -50px;
     z-index: 1;
 }
-.kitImage2{
+
+.kitImage2 {
     margin-bottom: -100px;
     margin-right: -250px;
     z-index: 1;
 }
-.kitDetails1 ul{
+
+.kitDetails1 ul {
     padding: 0rem 1rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .kitKnowledgeMain h1 {
+        font-weight: 700;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .kitImage1 {
+        height: 250px;
+        width: 250px;
+    }
+
+    .kitImage2 {
+        height: 250px;
+        width: 300px;
+    }
+
+    .clickPath1 {
+        height: 300px;
+        width: 400px;
+        left: 20%;
+    }
+
+    .clickPath2 {
+        height: 97rem;
+        width: 800px;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .kitKnowledgeMain h1 {
+        padding: 0 1rem;
+        font-size: 40px;
+    }
+    .kitKnowledge {
+        padding: 4rem 2rem 1rem 2rem;
+        margin-top: 0px;
+    }
+    .kitImage1 {
+        display: none;
+    }
+    .kitImage2 {
+        display: none;
+    }
+    .clickPath1 {
+        display: none;
+    }
+    .clickPath2 {
+        display: none;
+    }
+    .kitImage3{
+        display: none;
+    }
+    .kit2{
+        margin-top: 0;
+    }
+    .kit3{
+        margin-top: 0;
+    }
+    .kitDetails1{
+        height: fit-content;
+        width: fit-content;
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .kitKnowledge{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+    .kit1{
+        margin-left: 0;
+    }
+    .kit3{
+        margin-left: 0;
+    }
+    .kitDetails1{
+        width: 100%;
+    }
+}
+@media screen and (max-width:650px) {
+    .kitKnowledge{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
 }

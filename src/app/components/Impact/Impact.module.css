@@ -85,3 +85,62 @@
     height: 100px;
     width: 100px;
 }
+@media screen and (max-width: 1000px) {
+    .indiaImage{
+        height: 650px;
+        width: 650px;
+    }
+    .impactHeader h1{
+        font-size: 40px;
+        margin-left: -200px;
+        margin-right: 50px;
+    }
+    .impactContent2 {
+        margin-left: -120px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .impactMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .impactContent{
+        gap: 2rem;
+        margin: o;
+    }
+    .impactHeader h1{
+        font-size: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .lines {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .impactContent2{
+        margin-left: 0;
+    }
+    .indiaImage{
+        height: 100%;
+        width: 100%;
+        padding: 0 1rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .impactHeader h1{
+        font-size: 40px;
+    }
+    .impactImage {
+        height: 80px;
+        width: 80px;
+    }
+}
+@media screen and (max-width:400px) {
+    .impactHeader h1{
+        font-size: 30px;
+    }
+    .impactImage {
+        height: 50px;
+        width: 50px;
+    }
+}

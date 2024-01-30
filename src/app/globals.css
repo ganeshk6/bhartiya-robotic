@@ -4,5 +4,74 @@
   box-sizing: border-box;
 }
 .slick-slide > div {
-  margin: 0 5px;
+  /* margin: 0 5px; */
+}
+
+.slider-arrow {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height:80%;
+  width: 80vw;
+  cursor: pointer;
+}
+.arrowRight{
+  height: 100px;
+  width: 100px;
+  transform: rotate(180deg);
+}
+.arrowLeft{
+  height: 100px;
+  width: 100px;
+}
+.prev{
+  margin-left: -170px;
+}
+.next {
+  float: right;
+  margin-right: -50px;
+}
+@media screen and (max-width:850px) {
+  .arrowRight{
+    height: 50px;
+    width: 50px;
+  }
+  .arrowLeft{
+    height: 50px;
+    width: 50px;
+  }
+  .prev{
+    margin-left: -80px;
+  }
+  .next {
+    margin-right: -50px;
+  }
+}
+@media screen and (max-width:550px) {
+  .arrowRight{
+    height: 50px;
+    width: 50px;
+  }
+  .arrowLeft{
+    height: 50px;
+    width: 50px;
+  }
+  .prev{
+    margin-left: -50px;
+  }
+  .next {
+    margin-right: -20px;
+  }
+}
+.slick-prev:before, .slick-next:before{
+  background-color: #2F8F9D;
+  font-size: 50px;
+  padding: 1rem;
+  color: #000;
+  border-radius: 50%;
+}
+.slick-prev:before{
+  margin-left: -30px;
 }

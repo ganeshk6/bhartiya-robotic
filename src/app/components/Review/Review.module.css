@@ -1,6 +1,6 @@
 .clientReview {
     padding: 5rem 10rem;
-    background-color: #413b3b;
+    /* background-color: #413b3b; */
 }
 .commasImages{
     /* background-color: #D9D9D9; */
@@ -25,19 +25,19 @@
 }
 .clientSliderMessage {
     box-shadow: 1px 3px 3px 1px #413b3b;
-    background-color: #fff;
     border-radius: 5px;
-    padding: 2rem 1rem 1rem 0;
+    padding: 1rem 1rem 1rem 0;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    z-index: 1;
 }
 .clientNames{
     font-weight: bold;
     font-size: 20px;
-    padding-left: 1rem;
 }
 .messages{
+    padding-left: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -47,7 +47,7 @@
     font-style: italic;
     font-size: 16px;
     line-height: 18.4px;
-    margin-left: -5px;
+    /* margin-left: -5px; */
 }
 .reviewClientImage{
     height: 200px;
@@ -59,7 +59,12 @@
     z-index: 1;
 }
 @media screen and (max-width:850px) {
-    .clientContainer {
-        padding: 2rem 2rem;
+    .clientReview {
+        padding: 5rem 5rem;
+    }
+}
+@media screen and (max-width:850px) {
+    .clientReview {
+        padding: 5rem 3rem;
     }
 }

@@ -46,8 +46,7 @@ const Testimonial = () => {
               </Link>
             </div>
           </div>
-        </div>
-        <div className={Style.testimonial}>
+        {/* <div className={Style.testimonial}> */}
           <div className={Style.testimonialCard}>
           <Image
             className={Style.circleImage}
@@ -81,9 +80,9 @@ const Testimonial = () => {
               </Link>
             </div>
           </div>
-        </div>
-        <div className={Style.testimonial}>
-          <div className={Style.testimonialCard2}>
+        {/* </div> */}
+        {/* <div className={Style.testimonial}> */}
+          <div className={Style.testimonialCard}>
           <Image
             className={Style.circleImage}
             src={image1}
@@ -116,9 +115,9 @@ const Testimonial = () => {
               </Link>
             </div>
           </div>
-        </div>
-        <div className={Style.testimonial}>
-          <div className={Style.testimonialCard3}>
+        {/* </div> */}
+        {/* <div className={Style.testimonial}> */}
+          <div className={Style.testimonialCard}>
           <Image
             className={Style.circleImage}
             src={image1}
@@ -151,6 +150,7 @@ const Testimonial = () => {
               </Link>
             </div>
           </div>
+        {/* </div> */}
         </div>
       </div>
     </>

@@ -18,11 +18,9 @@ const Assistance = () => {
             <Image
               src={assistance2}
               alt="g"
-              height={450}
-              width={550}
               className={Style.assistanceImage1}
             />
-            <Image src={assistance1} alt="g" height={300} />
+            <Image src={assistance1} alt="g" className={Style.assistanceImage2} />
           </div>
           <div className={Style.assistanceMainContent}>
             <h1>We are always there for you !</h1>

@@ -1,55 +1,69 @@
-.assistanceStart{
+.assistanceStart {
     display: flex;
     flex-direction: column;
     padding: 4rem 5rem 4rem 4rem;
     align-items: center;
     position: relative;
 }
-.assistanceLine{
+
+.assistanceLine {
     position: absolute;
     top: 38%;
     height: 10px;
     background-color: #808080;
     width: 100vw;
+    z-index: -1;
 }
-.assistanceStart h1{
+
+.assistanceStart h1 {
     font-size: 50px;
     color: #2F8F9D;
 }
-.assistanceContentStart{
+
+.assistanceContentStart {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
-.assistanceImage{
+
+.assistanceImage {
     width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 2rem;
 }
-.assistanceImage1{
+
+/* .assistanceImage1 {
     margin-bottom: -220px;
     z-index: 1;
-}
-.assistanceMainContent{
+} */
+
+.assistanceMainContent {
     color: #808080;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.assistanceMainContent h1{
+
+.assistanceMainContent h1 {
     font-size: 37px;
     color: #808080;
 }
-.assistanceText{
-    font-size:20px;
+
+.assistanceText {
+    font-size: 20px;
     padding: 0 6rem 0 0;
-    line-height:22px;
+    line-height: 22px;
 }
-.assistanceButton{
+
+.assistanceButton {
     display: flex;
     justify-content: space-between;
+    gap: 0.5rem;
 }
-.buttons{
+
+.buttons {
     color: #fff;
     display: flex;
     text-decoration: none;
@@ -61,15 +75,96 @@
     font-weight: bold;
     border-radius: 30px;
 }
-.messageIcon{
+
+.messageIcon {
     font-size: 30px;
 }
-.calIcon{
+
+.calIcon {
     font-size: 30px;
     filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.5);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.assistanceImage1{
+    height: 400px;
+    width: 400px;
+    margin-bottom: -200px;
+    z-index: 1;
+}
+.assistanceImage2{
+    height: 350px;
+    width: 450px;
+}
+@media screen and (max-width:950px) {
+    .assistanceImage1{
+        height: 300px;
+        width: 300px;
+        margin-bottom: -150px;
+    }
+    .assistanceImage2{
+        height: 250px;
+        width: 350px;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .assistanceStart{
+        padding: 2rem 1rem;
+    }
+    .assistanceContentStart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .assistanceText {
+        font-size: 20px;
+        padding: 0 0 0 0;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .assistanceImage1{
+        height: 400px;
+        width: 400px;
+        margin-bottom: -200px;
+    }
+    .assistanceImage2{
+        height: 350px;
+        width: 450px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .assistanceImage1{
+        height: 300px;
+        width: 300px;
+        margin-bottom: -200px;
+    }
+    .assistanceImage2{
+        height: 300px;
+        width: 350px;
+    }
+    .assistanceButton{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .assistanceStart h1 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .assistanceImage1{
+        height: 250px;
+        width: 250px;
+        margin-bottom: -150px;
+    }
+    .assistanceImage2{
+        height: 250px;
+        width: 300px;
+    }
 }

@@ -1,7 +1,7 @@
 .footerClass{
     background-color: #000;
     width: 100%;
-    padding: 4rem 2rem;
+    padding: 5rem 3rem;
     color: rgba(47, 143, 157, 1);
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,8 @@
 }
 .footerIcons{
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
+    font-size: 35px;
 }
 .footerIcons p{
     cursor: pointer;
@@ -37,11 +38,11 @@
     gap: 2rem;
 }
 .footerAbout{
-    font-size: 25px;
+    font-size: 35px;
 }
 .footerAllLinks{
-    font-size: 10px;
-    line-height: 13px;
+    font-size: 15px;
+    line-height: 20px;
     cursor: pointer;
 }
 .footerForm{
@@ -60,14 +61,41 @@
     text-shadow: 2px 2px rgb(0, 0, 0);
 }
 .inputFields{
-    width: 250px;
-    border-radius: 20px;
+    width: 100%;
+    border-radius: 30px;
     border: none;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 .footerFormButton button{
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    border: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    background-color: #2F8F9D;
+    border: 5px solid #fff;
+    color: hsl(0, 0%, 100%);
     cursor: pointer;
+    font-size: 20px;
+}
+@media screen and (max-width:1000px) {
+    .footerClass{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .footerDetailaLink{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footerDetails{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .footerClass{
+        padding: 5rem 1rem;
+    }
+    .footerLogoIcons{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 }

@@ -15,26 +15,16 @@ const Footer = () => {
         <div className={Style.footerDetails}>
           <div className={Style.footerLogoIcons}>
             <div>
-              <Image src={footerLogo} alt="g" height={50} width={100} />
+              <Image src={footerLogo} alt="g" height={100} width={200} />
             </div>
             <div className={Style.footerNameIcons}>
-              <h2>Bhartiya Robotics</h2>
+              <h1>Bhartiya Robotics</h1>
               <div className={Style.footerIcons}>
-                <p>
                   <IoIosCall />
-                </p>
-                <p>
                   <IoLogoFacebook />
-                </p>
-                <p>
                   <IoLogoTwitter />
-                </p>
-                <p>
                   <RiCamera2Fill />
-                </p>
-                <p>
                   <IoMdMail />
-                </p>
               </div>
             </div>
           </div>
@@ -65,21 +55,22 @@ const Footer = () => {
         </div>
         <div className={Style.footerForm}>
           <div>
-            <h3 className={Style.footerFormHeader}>Take you first step</h3>
+            <h1 className={Style.footerFormHeader}>Take you first step</h1>
           </div>
           <div>
-            <input type="text" className={Style.inputFields} />
+            <input type="text" placeholder="Email Address" className={Style.inputFields} />
           </div>
           <div>
             <textarea
               name=""
               className={Style.inputFields}
-              cols="10"
+              placeholder="Message"
+              cols="15"
               rows="5"
             ></textarea>
           </div>
           <div className={Style.footerFormButton}>
-            <button type="button">connect</button>
+            <button type="button">Connect</button>
           </div>
         </div>
       </div>
