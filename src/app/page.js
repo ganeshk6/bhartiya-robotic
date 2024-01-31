@@ -11,6 +11,7 @@ import Review from "./components/Review/Review";
 import CopyRight from "./components/CopyRight/CopyRight";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import WhoWe from "./components/WhoWe/WhoWe";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
     <Blank />
     <Impact />
     <Blank />
+    <WhoWe />
     <Testimonial />
     <Assistance />
     <Blank />

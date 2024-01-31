@@ -1,5 +1,5 @@
 "use client";
-import React, { Component, useRef } from "react";
+import React, { Component } from "react";
 import Style from "./Review.module.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -14,7 +14,6 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import arrows from '../assets/images/rectangle-110@2x.png'
 import Image from "next/image";
 
-// const slider = useRef()
 export default class Review extends Component {
   renderArrows = () => {
     return (

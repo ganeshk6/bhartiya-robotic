@@ -64,11 +64,10 @@ const Header = () => {
             <div className={styles.mobileLogo}>
                 <div>
                   <Link to='./'>
-                    <Image src={logo} alt='df' height={100} width={150} />
+                    <Image src={logo} alt='df' height={75} width={150} />
                   </Link>
                   <div className={styles.mobileContent}>
                     <p>BHARATIYA ROBOTICS</p>
-                    <p>Let’s Fertilize the seeds of Bots</p>
                   </div>
                 </div>
               <div className={styles.mobileClose}>
